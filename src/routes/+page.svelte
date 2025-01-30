@@ -23,18 +23,10 @@
 </head>
 
 <style>
-    <ul class = " nav ">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Ativo</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Desativado</a>
-  </li>
-</ul>
+<nav class="nav">
+  <a class="nav-link active" href="#">Ativo</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#">Desativado</a>
+</nav>
 </style>
