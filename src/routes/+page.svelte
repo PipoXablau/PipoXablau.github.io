@@ -23,7 +23,7 @@
 </head>
 
 <style>
-    <ul class="nav">
+    <ul class = " nav ">
   <li class="nav-item">
     <a class="nav-link active" href="#">Ativo</a>
   </li>
