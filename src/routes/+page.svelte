@@ -162,6 +162,7 @@
   <br />
 </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- svelte-ignore a11y_consider_explicit_label -->
   <a class="navbar-brand" href="index.html"></a>
   <button
     class="navbar-toggler"
