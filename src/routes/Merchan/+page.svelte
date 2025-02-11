@@ -25,9 +25,6 @@
         padding-left: 50px;
       margin-bottom: -50px;
     }
-    header p {
-        font-size: 1rem;
-    }
 
     /* Gradiente vertical na Navbar */
     .navbar {
@@ -35,10 +32,7 @@
         font-family: 'OpenSans', ; /* Fonte da navbar */
       
     }
-    .navbar .navbar-brand img {
-        width: 60px;
-        height: 60px;
-    }
+ 
     .navbar-toggler {
         border-color: #ffffff; /* Cor do botão */
     }
@@ -52,36 +46,7 @@
         color: #ffffff  !important; /* Cor ativa */
     }
 
-    /* Estilo do botão */
-    .btn-outline-success {
-        color: #970000; /* Cor do texto (vermelho) */
-        border-color: #ff0000; /* Cor da borda (vermelho) */
-    }
-    
-    .btn-outline-success:hover {
-        color: #000000; /* Cor do texto quando passar o mouse */
-        background-color: #ff0000; /* Cor de fundo (vermelho) */
-        border-color: #ff0000; /* Cor da borda ao passar o mouse */
-    }
-
-    .shadowbar :hover {
-        color: #000000; /* Cor do texto quando passar o mouse */
-        background-color: #1a1818; /* Cor de fundo (vermelho) */
-        border-color: #ff0000; /* Cor da borda ao passar o mouse */
-    }
-
-    /* Gradiente vertical na Navbar */
-    .sonic {
-        background: linear-gradient(to bottom, #1e1e1e, #1e1e1e); /* Gradiente vertical */
-        font-family: 'New Gothic Style', sans-serif; /* Fonte da navbar */
-    }
-
-    /* Gradiente vertical na Navbar */
-    .tails {
-        background: linear-gradient(to bottom, #1e1e1e, #1e1e1e); /* Gradiente vertical */
-        font-family: 'New Gothic Style', sans-serif; /* Fonte da navbar */
-        
-    }
+   
     </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
