@@ -133,9 +133,8 @@
       album: "Slouvaki",
       date: "04/02/2025",
       duration: "04:46",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihY82X4uy5RTYoqURICiQgQb8dfOx4uGPDQ&s",
-      youtube: "https://youtu.be/HN-KHZ9NDVA?si=o9fuoxhE45C_iwr7",
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihY82X4uy5RTYoqURICiQgQb8dfOx4uGPDQ&s",
+      youtube:"https://youtu.be/HN-KHZ9NDVA?si=o9fuoxhE45C_iwr7",
     },
 
     {
@@ -221,6 +220,8 @@
 </div>
 
 {#each songs as song}
+  <!-- svelte-ignore a11y_click_events_have_key_events -->
+  <!-- svelte-ignore a11y_no_static_element_interactions -->
   <div class="music-bar" on:click={() => openYoutube(song.youtube)}>
     <div class="album-cover">
       <img src={song.image} alt="{song.title} Cover" />
