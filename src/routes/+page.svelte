@@ -163,7 +163,7 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- svelte-ignore a11y_consider_explicit_label -->
-  <a class="navbar-brand" href="index.html"></a>
+  <a class="navbar-brand" href="0"></a>
   <button
     class="navbar-toggler"
     type="button"
@@ -187,27 +187,7 @@
         <a class="nav-link" href="Sobre">Artistas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="services.html">Merchan</a>
-      </li>
-      <li class="nav-item dropdown">
-        <!-- svelte-ignore a11y_invalid_attribute -->
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Mais
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="contact.html">Contato</a>
-          <a class="dropdown-item" href="faq.html">FAQ</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="support.html">Suporte</a>
-        </div>
+        <a class="nav-link" href="Merchan">Merchan</a>
       </li>
     </ul>
   </div>
