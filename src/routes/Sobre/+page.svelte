@@ -85,6 +85,7 @@
     </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- svelte-ignore a11y_consider_explicit_label -->
     <a class="navbar-brand" href="index.html"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -102,7 +103,7 @@
           <a class="nav-link" href="services.html">Merchan</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="0" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Mais
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">

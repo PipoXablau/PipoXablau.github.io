@@ -189,6 +189,7 @@
         <a class="nav-link" href="services.html">Merchan</a>
       </li>
       <li class="nav-item dropdown">
+        <!-- svelte-ignore a11y_invalid_attribute -->
         <a
           class="nav-link dropdown-toggle"
           href="#"
