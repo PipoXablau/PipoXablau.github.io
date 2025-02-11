@@ -1,6 +1,3 @@
-
-<!-- svelte-ignore css_unused_selector -->
-<!-- svelte-ignore css_unused_selector -->
 <header>
 
     <h1>D E F T O N E S K Y </h1><center></center>
