@@ -238,9 +238,7 @@
     padding-left: 50px;
     margin-bottom: -50px;
   }
-  header p {
-    font-size: 1rem;
-  }
+
 
   /* Gradiente vertical na Navbar */
   .navbar {
@@ -251,67 +249,7 @@
     ); /* Gradiente vertical */
     font-family: "OpenSans"; /* Fonte da navbar */
   }
-  .navbar .navbar-brand img {
-    width: 60px;
-    height: 60px;
-  }
-  .navbar-toggler {
-    border-color: #ffffff; /* Cor do botão */
-  }
-  .navbar-nav .nav-link {
-    color: #ffffff !important; /* Cor do texto */
-  }
-  .navbar-nav .nav-link:hover {
-    color: #ffffff !important; /* Cor do texto ao passar o mouse */
-  }
-  .navbar-nav .nav-item.active .nav-link {
-    color: #ffffff !important; /* Cor ativa */
-  }
-
-  /* Estilo do botão */
-  .btn-outline-success {
-    color: #970000; /* Cor do texto (vermelho) */
-    border-color: #ff0000; /* Cor da borda (vermelho) */
-  }
-
-  .btn-outline-success:hover {
-    color: #000000; /* Cor do texto quando passar o mouse */
-    background-color: #ff0000; /* Cor de fundo (vermelho) */
-    border-color: #ff0000; /* Cor da borda ao passar o mouse */
-  }
-
-  .shadowbar :hover {
-    color: #000000; /* Cor do texto quando passar o mouse */
-    background-color: #1a1818; /* Cor de fundo (vermelho) */
-    border-color: #ff0000; /* Cor da borda ao passar o mouse */
-  }
-
-  /* Gradiente vertical na Navbar */
-  .sonic {
-    background: linear-gradient(
-      to bottom,
-      #1e1e1e,
-      #1e1e1e
-    ); /* Gradiente vertical */
-    font-family: "New Gothic Style", sans-serif; /* Fonte da navbar */
-  }
-
-  /* Gradiente vertical na Navbar */
-  .tails {
-    background: linear-gradient(
-      to bottom,
-      #1e1e1e,
-      #1e1e1e
-    ); /* Gradiente vertical */
-    font-family: "New Gothic Style", sans-serif; /* Fonte da navbar */
-  }
-
-  .livinglegends {
-    margin-top: 10px;
-    margin: 10px;
-    margin-bottom: 10px;
-  }
-
+  
   :global(body) {
     background-color: #121212; /* Fundo escuro */
     margin: 0;
@@ -391,15 +329,7 @@
     color: #b3b3b3;
   }
 
-  .music-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #1c1c1c;
-    padding: 10px 0;
-    z-index: 1000;
-  }
+
 
   .music-bar {
     display: grid;
