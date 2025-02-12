@@ -158,7 +158,7 @@
         <a class="nav-link" href="Sobre">Artistas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Merchan">Merchan</a>
+        <a class="nav-link" href="Merchan">Albuns</a>
       </li>
     </ul>
   </div>
@@ -218,7 +218,7 @@
       #1e1e1e,
       #1e1e1e
     ); /* Gradiente vertical */
-    font-family: "OpenSans"; /* Fonte da navbar */
+    font-family; "OpenSans"; /* Fonte da navbar */
   }
   
   :global(body) {
@@ -325,4 +325,10 @@
     text-align: center;
     min-width: 120px; /* Ajuste para maior espaçamento */
   }
+
+  .navbar .nav-link {
+  color: white !important;
+}
+
 </style>
+
