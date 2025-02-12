@@ -118,7 +118,6 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIG8Ek-Bty-lMuzsEgmqYG8wD6zqk-DwWtg&s",
       youtube: "https://youtu.be/HN-KHZ9NDVA?si=https://youtu.be/FmrKm7q-V6c?si=MDGSaBHppu_F_wY2",
     },
-    
     {
       title: "Life Force",
       artist: "ptasinski, RJ Pasin",
