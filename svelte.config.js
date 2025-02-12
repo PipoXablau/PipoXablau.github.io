@@ -1,7 +1,9 @@
-import { defineConfig } from '@sveltejs/kit';
+// svelte.config.js
+import adapter from '@sveltejs/adapter-static';
 
-export default defineConfig({
+export default {
   kit: {
+    adapter: adapter(),
     prerender: {
       handleHttpError: ({ status, path, message }) => {
         if (status === 404) {
@@ -12,4 +14,4 @@ export default defineConfig({
       }
     }
   }
-});
+};
