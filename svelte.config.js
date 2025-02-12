@@ -1,12 +1,15 @@
-import adapter from '@sveltejs/adapter-static';
-export default {
+import { defineConfig } from '@sveltejs/kit';
+
+export default defineConfig({
   kit: {
-      adapter: adapter({
-          pages: 'build',
-          assets: 'build',
-          fallback: undefined,
-          precompress: false,
-          strict: true
-      })
+    prerender: {
+      handleHttpError: ({ status, path, message }) => {
+        if (status === 404) {
+          console.warn(`Ignorando 404 em ${path}: ${message}`);
+          return;
+        }
+        throw new Error(message);
+      }
+    }
   }
-};
+});
