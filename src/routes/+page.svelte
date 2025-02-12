@@ -118,17 +118,7 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIG8Ek-Bty-lMuzsEgmqYG8wD6zqk-DwWtg&s",
       youtube: "https://youtu.be/HN-KHZ9NDVA?si=https://youtu.be/FmrKm7q-V6c?si=MDGSaBHppu_F_wY2",
     },
-    {
-      title: "Life Force",
-      artist: "ptasinski, RJ Pasin",
-      album: "Life Force",
-      date: "11/02/2025",
-      duration: "1:50",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIG8Ek-Bty-lMuzsEgmqYG8wD6zqk-DwWtg&s",
-      youtube: "https://youtu.be/HN-KHZ9NDVA?si=https://youtu.be/FmrKm7q-V6c?si=MDGSaBHppu_F_wY2",
-    },
-
+  
   ];
 
   function openYoutube(url) {
