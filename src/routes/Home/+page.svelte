@@ -150,7 +150,7 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="http://localhost:5173"
+        <a class="nav-link" href="Home"
           >Home <span class="sr-only">(página atual)</span></a
         >
       </li>
@@ -218,7 +218,7 @@
       #1e1e1e,
       #1e1e1e
     ); /* Gradiente vertical */
-    font-family; "OpenSans"; /* Fonte da navbar */
+    
   }
   
   :global(body) {
