@@ -1,15 +1,16 @@
 <script>
   let songs = [
     {
-      title: "Living Legends",
-      artist: "Lana Del Rey",
-      album: "Born to Die",
+      title: "Wish You Were Here",
+      artist: "Pink Floyd",
+      album: "Wish You Were Here",
       date: "15/01/2025",
-      duration: "3:45",
+      duration: "5:35",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLKcFWIQcQN00Mhys5mq4WM9f3ml5ydth28JuGVP0OfQTq4LhVu4hm2d_9BW-dfQ4vkg&usqp=CAU",
-      youtube: "https://www.youtube.com/watch?v=0M1I-6zN2FM",
+        "https://i.scdn.co/image/ab67616d0000b2731a84d71391df7469c5ab8539",
+      youtube: "https://www.youtube.com/watch?v=hjpF8ukSrvk",
     },
+
     {
       title: "Let It Happen",
       artist: "Tame Impala",
@@ -54,6 +55,17 @@
       duration: "03:03",
       image: "https://i.scdn.co/image/ab67616d0000b27334b5e51adeea6f1aa2285ce3",
       youtube: "https://youtu.be/1-kO12tP3SE?si=y6Tgki84Md0F5aKb",
+    },
+
+    {
+      title: "Living Legends",
+      artist: "Lana Del Rey",
+      album: "Born to Die",
+      date: "15/01/2025",
+      duration: "3:45",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLKcFWIQcQN00Mhys5mq4WM9f3ml5ydth28JuGVP0OfQTq4LhVu4hm2d_9BW-dfQ4vkg&usqp=CAU",
+      youtube: "https://www.youtube.com/watch?v=0M1I-6zN2FM",
     },
 
     {
@@ -149,10 +161,8 @@
 
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Home"
-          >Home <span class="sr-only">(página atual)</span></a
-        >
+      <li class="nav-item">
+        <a class="nav-link" href="Home">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="Sobre">Artistas</a>

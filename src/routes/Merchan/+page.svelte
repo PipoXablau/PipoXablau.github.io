@@ -77,9 +77,9 @@
 
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="Home">Home <span class="sr-only">(página atual)</span></a>
-        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Home">Home</a>
+          </li>
         <li class="nav-item">
           <a class="nav-link" href="Sobre">Artistas</a>
         </li>
@@ -165,70 +165,35 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 1">
+                <img src="https://i.scdn.co/image/ab67616d0000b273bb578d67335e98a2cd63425f" class="card-img-top" alt="Artista 1">
                 <div class="card-body">
-                    <h5 class="card-title">Artista 1</h5>
-                    <p class="card-text">Descrição breve sobre o artista.</p>
-                    <a href="artista1.html" class="btn btn-primary">Saiba Mais</a>
+                    <h5 class="card-title">Role trevas parte 2</h5>
+                    <p class="card-text">Primeiro álbum de estúdio "rolê trevas pt. II" Se você gosta de um Midwest, você precisa ouvir.</p>
+                    <a href="https://open.spotify.com/intl-pt/album/2hXpj7M1mjVoBnNwJh1rBt" class="btn btn-primary">Saiba Mais</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 2">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/2/2d/Currents_Tame_Impala.png" class="card-img-top" alt="Artista 2">
                 <div class="card-body">
-                    <h5 class="card-title">Artista 2</h5>
-                    <p class="card-text">Descrição breve sobre o artista.</p>
-                    <a href="artista2.html" class="btn btn-primary">Saiba Mais</a>
+                    <h5 class="card-title">Currents</h5>
+                    <p class="card-text">Currents é o terceiro álbum de estúdio do projeto de música psicodélica australiano Tame Impala, lançado no dia 17 de julho de 2015 pela Modular Recordings e pela Universal Music Australia na Austrália, Fiction Records na Europa e pela Interscope Records nos Estado Unidos..</p>
+                    <a href="https://open.spotify.com/intl-pt/album/79dL7FLiJFOO0EoehUHQBv" class="btn btn-primary">Saiba Mais</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 3">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/7/7e/The_Queen_is_Dead.jpg" class="card-img-top" alt="Artista 3">
                 <div class="card-body">
-                    <h5 class="card-title">Artista 3</h5>
-                    <p class="card-text">Descrição breve sobre o artista.</p>
-                    <a href="artista3.html" class="btn btn-primary">Saiba Mais</a>
+                    <h5 class="card-title">The Queen Is Dead</h5>
+                    <p class="card-text">The Queen Is Dead é o terceiro álbum de estúdio da banda britânica de rock The Smiths. Lançado em 16 de junho de 1986 no Reino Unido pela gravadora Rough Trade, e em 23 de junho nos Estados Unidos pela gravadora Sire. Passou 22 semanas na parada de álbuns do Reino Unido, chegando ao segundo lugar.</p>
+                    <a href="https://open.spotify.com/intl-pt/album/5Y0p2XCgRRIjna91aQE8q7" class="btn btn-primary">Saiba Mais</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container mt-5">
-  <div class="row">
-      <div class="col-md-4">
-          <div class="card">
-              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 1">
-              <div class="card-body">
-                  <h5 class="card-title">Artista 1</h5>
-                  <p class="card-text">Descrição breve sobre o artista.</p>
-                  <a href="artista1.html" class="btn btn-primary">Saiba Mais</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="card">
-              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 2">
-              <div class="card-body">
-                  <h5 class="card-title">Artista 2</h5>
-                  <p class="card-text">Descrição breve sobre o artista.</p>
-                  <a href="artista2.html" class="btn btn-primary">Saiba Mais</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="card">
-              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Artista 3">
-              <div class="card-body">
-                  <h5 class="card-title">Artista 3</h5>
-                  <p class="card-text">Descrição breve sobre o artista.</p>
-                  <a href="artista3.html" class="btn btn-primary">Saiba Mais</a>
-              </div>
-          </div>
-      </div>
-  </div>
 </div>
 
  
