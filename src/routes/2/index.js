@@ -340,6 +340,12 @@ if (opcao == "1") {
 
 if (resultado !== undefined) {
   alert("Resultado: " + resultado);
+
+
+
+
+
+  
 }
 
 // ---- Trabalho
@@ -433,7 +439,153 @@ do {
 
 } while (opcao !== "4");
 
+// exercício 1 criando um livro
 
+let livro = {
+  titulo: "Dom Casmurro",
+  autor: "Machado de Assis",
+  ano: 1899,
+  paginas: 256
+};
+
+alert("Título: " + livro.titulo);
+alert("Autor: " + livro.autor);
+alert("Ano: " + livro.ano);
+alert("Páginas: " + livro.paginas);
+
+
+// exercício 2 – alterando valores
+
+let filme = {
+  titulo: "A Origem",
+  ano: 2010,
+  diretor: "Christopher Nolan"
+};
+
+alert("Título: " + filme.titulo);
+
+filme.ano = 2012;       // alterando ano
+filme.nota = 9.3;       // adicionando nota
+
+alert(
+  "Título: " + filme.titulo +
+  "\nAno: " + filme.ano +
+  "\nDiretor: " + filme.diretor +
+  "\nNota: " + filme.nota
+);
+
+// Exercício 3 – objeto com dados de cadastro
+
+let nome = prompt("Digite seu nome:");
+let idade = prompt("Digite sua idade:");
+let cidade = prompt("Digite sua cidade:");
+
+let pessoa = {
+  nome: nome,
+  idade: idade,
+  cidade: cidade
+};
+
+alert(
+  "Nome: " + pessoa.nome +
+  "\nIdade: " + pessoa.idade +
+  "\nCidade: " + pessoa.cidade
+);
+
+
+// exercício 4 – cadastro de produto
+
+let produto = {
+  nome: "Mouse Gamer",
+  preco: 120.00,
+  quantidade: 10
+};
+
+alert("Preço: R$ " + produto.preco);
+
+produto.quantidade += 5;
+
+alert(
+  "Produto: " + produto.nome +
+  "\nPreço: R$ " + produto.preco +
+  "\nQuantidade: " + produto.quantidade
+);
+
+//exercício 5 – objeto vazio
+
+let carro = {};
+
+carro.marca = prompt("Digite a marca do carro:");
+carro.modelo = prompt("Digite o modelo do carro:");
+carro.ano = prompt("Digite o ano do carro:");
+
+alert(carro.marca + " - " + carro.modelo + " (" + carro.ano + ")");
+
+
+//exercício 6 – leitura com colchetes
+
+let aluno = {
+  nome: "Carlos",
+  idade: 17,
+  curso: "Informatica"
+};
+
+alert(aluno["nome"]);
+alert(aluno["idade"]);
+alert(aluno["curso"]);
+
+
+//Exercício 7 – Vetor x Objeto (explicação)
+
+Use vetor quando você precisa armazenar vários valores do mesmo tipo, como uma lista de nomes ou números.
+Use objeto quando você precisa guardar informações organizadas por propriedades, como dados de um produto, pessoa ou cadastro.
+Vetores são melhores para coleções; objetos são melhores para representar algo com características.
+
+// exercicio 8 – mini cadastro
+
+let jogo = {
+  nome: "FIFA 24",
+  genero: "Esporte",
+  plataforma: "PC",
+  preco: 199.90
+};
+
+alert(
+  "Jogo: " + jogo.nome +
+  "\nGênero: " + jogo.genero +
+  "\nPlataforma: " + jogo.plataforma +
+  "\nPreço: R$ " + jogo.preco
+);
+
+// exercicio 9 – atualização de dados
+
+let professor = {
+  nome: "Marcelo",
+  disciplina: "Algoritmos",
+  experiencia: 8
+};
+
+professor.experiencia = 9;
+professor.disciplina = "Programação Web";
+
+alert(
+  "Nome: " + professor.nome +
+  "\nDisciplina: " + professor.disciplina +
+  "\nExperiência: " + professor.experiencia + " anos"
+);
+ 
+
+// exercicio 10 – Objeto com valores numéricos
+
+let conta = {
+  saldo: 500,
+  limite: 1000,
+  banco: "Caixa"
+};
+
+conta.saldo += 100;
+
+alert("Saldo final: R$ " + conta.saldo);
 
 
 
