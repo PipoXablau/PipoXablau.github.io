@@ -183,8 +183,164 @@ do {
   i++;
 } while (i <= 10);
 
+// ============
+
+// função
+//1. Mensagem de boas-vindas
+
+function boasVindas() {
+  alert("Bem-vindo ao curso de Informática!");
+}
+
+boasVindas();
+
+//2. Função com nome
+
+function saudacao(nome) {
+  alert("Olá, " + nome + "! Seja bem-vindo(a)!");
+}
+
+let nomeUsuario = prompt("Digite seu nome:");
+saudacao(nomeUsuario);
+
+//3. Dobro do número
+
+function dobro(numero) {
+  return numero * 2;
+}
+
+let n = Number(prompt("Digite um número:"));
+alert("O dobro é: " + dobro(n));
+
+//4. Soma de dois números
+
+function somar(a, b) {
+  return a + b;
+}
+
+let num1 = Number(prompt("Digite o primeiro número:"));
+let num2 = Number(prompt("Digite o segundo número:"));
+
+alert("A soma é: " + somar(num1, num2));
+
+//5. Média de três notas
+
+function media(a, b, c) {
+  return (a + b + c) / 3;
+}
+
+let n1 = Number(prompt("Digite a primeira nota:"));
+let n2 = Number(prompt("Digite a segunda nota:"));
+let n3 = Number(prompt("Digite a terceira nota:"));
+
+let m = media(n1, n2, n3);
+
+if (m >= 6) {
+  alert("Média: " + m.toFixed(2) + " - Aprovado!");
+} else {
+  alert("Média: " + m.toFixed(2) + " - Reprovado!");
+}
+
+//6 Verificar se é par ou ímpar
+
+function ehPar(numero) {
+  if (numero % 2 === 0) {
+    alert("É par!");
+  } else {
+    alert("É ímpar!");
+  }
+}
+
+let valor = Number(prompt("Digite um número:"));
+ehPar(valor);
 
 
+//7. Maior número
+
+function maior(a, b) {
+  return a > b ? a : b;
+}
+
+let a = Number(prompt("Digite o primeiro número:"));
+let b = Number(prompt("Digite o segundo número:"));
+
+alert("O maior número é: " + maior(a, b));
+
+
+//8. Conversão de temperatura
+
+function celsiusParaFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
+
+let c = Number(prompt("Digite a temperatura em °C:"));
+alert("Em Fahrenheit: " + celsiusParaFahrenheit(c));
+
+
+//9. Tabuada
+
+function tabuada(numero) {
+  let resultado = "";
+  for (let i = 1; i <= 10; i++) {
+    resultado += numero + " x " + i + " = " + (numero * i) + "\n";
+  }
+  alert(resultado);
+}
+
+let numTabuada = Number(prompt("Digite um número para ver a tabuada:"));
+tabuada(numTabuada);
+
+
+//10. Mini Calculadora (Desafio)
+
+function somar(a, b) {
+  return a + b;
+}
+
+function subtrair(a, b) {
+  return a - b;
+}
+
+function multiplicar(a, b) {
+  return a * b;
+}
+
+function dividir(a, b) {
+  return a / b;
+}
+
+let opcao = prompt(
+  "Escolha uma operação:\n" +
+  "1 - Somar\n" +
+  "2 - Subtrair\n" +
+  "3 - Multiplicar\n" +
+  "4 - Dividir"
+);
+
+let n1_calc = Number(prompt("Digite o primeiro número:"));
+let n2_calc = Number(prompt("Digite o segundo número:"));
+
+let resultado;
+
+if (opcao == "1") {
+  resultado = somar(n1_calc, n2_calc);
+} else if (opcao == "2") {
+  resultado = subtrair(n1_calc, n2_calc);
+} else if (opcao == "3") {
+  resultado = multiplicar(n1_calc, n2_calc);
+} else if (opcao == "4") {
+  if (n2_calc === 0) {
+    alert("Erro: divisão por zero!");
+  } else {
+    resultado = dividir(n1_calc, n2_calc);
+  }
+} else {
+  alert("Opção inválida!");
+}
+
+if (resultado !== undefined) {
+  alert("Resultado: " + resultado);
+}
 
 
 
