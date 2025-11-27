@@ -342,6 +342,98 @@ if (resultado !== undefined) {
   alert("Resultado: " + resultado);
 }
 
+// ---- Trabalho
+
+// menuAgenda_SeuNome.js
+
+let nomes = [];
+let opcao;
+
+do {
+  opcao = prompt(
+    "=== MENU ===\n" +
+    "1 - Cadastrar\n" +
+    "2 - Listar\n" +
+    "3 - Remover\n" +
+    "4 - Sair\n\n" +
+    "Escolha uma opção:"
+  );
+
+  switch (opcao) {
+
+    // -------------------------------------------
+    // OPÇÃO 1 - CADASTRAR
+    // -------------------------------------------
+    case "1":
+      let nome = prompt("Digite um nome para cadastrar:").trim();
+
+      if (nome === "") {
+        alert("Nome inválido. Digite um nome válido!");
+        break;
+      }
+
+      // Verifica duplicidade ignorando maiúsculas/minúsculas
+      let existe = nomes.some(n => n.toLowerCase() === nome.toLowerCase());
+
+      if (existe) {
+        alert("Esse nome já está cadastrado!");
+      } else {
+        nomes.push(nome);
+        alert("Nome cadastrado com sucesso!");
+      }
+      break;
+
+    // -------------------------------------------
+    // OPÇÃO 2 - LISTAR
+    // -------------------------------------------
+    case "2":
+      if (nomes.length === 0) {
+        alert("Nenhum nome cadastrado.");
+      } else {
+        alert("Lista de nomes cadastrados:\n\n" + nomes.join("\n"));
+      }
+      break;
+
+    // -------------------------------------------
+    // OPÇÃO 3 - REMOVER
+    // -------------------------------------------
+    case "3":
+      if (nomes.length === 0) {
+        alert("Não há nomes para remover.");
+        break;
+      }
+
+      let nomeRemover = prompt("Digite o nome que deseja remover:").trim();
+
+      let indice = nomes.findIndex(
+        n => n.toLowerCase() === nomeRemover.toLowerCase()
+      );
+
+      if (indice === -1) {
+        alert("Nome não encontrado.");
+      } else {
+        nomes.splice(indice, 1);
+        alert("Nome removido com sucesso!");
+      }
+      break;
+
+    // -------------------------------------------
+    // OPÇÃO 4 - SAIR
+    // -------------------------------------------
+    case "4":
+      alert("Encerrando o programa. Até logo!");
+      break;
+
+    // -------------------------------------------
+    // OPÇÃO INVÁLIDA
+    // -------------------------------------------
+    default:
+      alert("Opção inválida. Escolha um número entre 1 e 4.");
+  }
+
+} while (opcao !== "4");
+
+
 
 
 
